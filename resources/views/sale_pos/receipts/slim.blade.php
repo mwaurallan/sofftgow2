@@ -426,7 +426,7 @@
 						<tr>
 							<td class="width-50 text-center">
 {{--								{!! $receipt_details->total_due_label !!}--}}
-								<p><h5>Mpesa Till:8012484</h5></p>
+								<p><h5>Mpesa Till:xxx</h5></p>
 							</td>
 							<td class="width-50 text-right">
 {{--								{{$receipt_details->total_due}}--}}
