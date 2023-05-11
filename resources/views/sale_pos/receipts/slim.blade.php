@@ -37,8 +37,9 @@
 
 
 				@if(!empty($receipt_details->contact))
-<!--					<br/>{{ $receipt_details->contact }}-->
+				<br/>{{ $receipt_details->contact }}
 				@endif
+				<br/>
 				@if(!empty($receipt_details->contact))
 
 				@endif
