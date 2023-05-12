@@ -484,11 +484,11 @@
 
 			@if(empty($receipt_details->footer_text))
 
-				<p class="centered"><h3>
+				<p class="centered"><h5>
 					{{--					{!! $receipt_details->footer_text !!}--}}
 
 					Mpesa Paybill:522522  -A/C No:5849468
-				</h3>
+				</h5>
 				</p>
 				<p class="centered">
 {{--					{!! $receipt_details->footer_text !!}--}}
