@@ -76,7 +76,7 @@
 
 				<!-- Title of receipt -->
 				@if(!empty($receipt_details->invoice_heading))
-					<br/><span class="sub-headings">{!! $receipt_details->invoice_heading !!}</span>
+					<br/><h5><span class="sub-headings">{!! $receipt_details->invoice_heading !!}</span></h5>
 				@endif
 			</p>
 			</div>
