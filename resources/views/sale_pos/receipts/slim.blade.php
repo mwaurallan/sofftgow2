@@ -426,7 +426,7 @@
 						<tr>
 							<td class="width-50 text-center">
 {{--								{!! $receipt_details->total_due_label !!}--}}
-								<p><h5>Mpesa Paybill:522522  -A/C No:5849468</h5></p
+{{--								<p><h5>Mpesa Paybill:522522  -A/C No:5849468</h5></p--}}
 
 							</td>
 							<td class="width-50 text-right">
@@ -486,7 +486,8 @@
 
 				<p class="centered">
 					{{--					{!! $receipt_details->footer_text !!}--}}
-					Powered By Savannabits:0725263425
+
+					Mpesa Paybill:522522  -A/C No:5849468
 				</p>
 				<p class="centered">
 {{--					{!! $receipt_details->footer_text !!}--}}
