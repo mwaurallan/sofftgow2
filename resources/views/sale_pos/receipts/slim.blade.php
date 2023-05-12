@@ -36,8 +36,10 @@
 				@endif
 				@if(!empty($receipt_details->contact))
 				<br/>{{ $receipt_details->contact }}
-					<br/>
 				@endif
+			</p>
+				<br/>
+
 
 {{--				@if(!empty($receipt_details->contact))--}}
 
@@ -436,8 +438,8 @@
 						</tr>
 						<tr>
 							<td colspan="4">
-								<p><h5>Thank you For Shopping With Us!!!!</h5></p>
-								<p><h5>Goods Once Sold Cannot Be Returned</h5></p>
+{{--								<p><h5>Thank you For Shopping With Us!!!!</h5></p>--}}
+{{--								<p><h5>Goods Once Sold Cannot Be Returned</h5></p>--}}
 
 							</td>
 						</tr>
@@ -488,6 +490,9 @@
 					{{--					{!! $receipt_details->footer_text !!}--}}
 
 					Mpesa Paybill:522522  -A/C No:5849468
+
+					<p><h5>Thank you For Shopping With Us!!!!</h5></p>
+					<p><h5>Goods Once Sold Cannot Be Returned</h5></p>
 				</h5>
 				</p>
 				<p class="centered">
