@@ -483,6 +483,11 @@
 			@endif
 
 			@if(empty($receipt_details->footer_text))
+
+				<p class="centered">
+					{{--					{!! $receipt_details->footer_text !!}--}}
+					Powered By Savannabits:0725263425
+				</p>
 				<p class="centered">
 {{--					{!! $receipt_details->footer_text !!}--}}
 					Powered By Savannabits:0725263425
