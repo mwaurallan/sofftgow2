@@ -34,10 +34,10 @@
 					{!! $receipt_details->address !!}
 					<br/>
 				@endif
-{{--				@if(!empty($receipt_details->contact))--}}
-{{--				<br/>{{ $receipt_details->contact }}--}}
-{{--					<br/>--}}
-{{--				@endif--}}
+				@if(!empty($receipt_details->contact))
+				<br/>{{ $receipt_details->contact }}
+					<br/>
+				@endif
 
 {{--				@if(!empty($receipt_details->contact))--}}
 
